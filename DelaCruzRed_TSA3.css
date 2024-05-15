@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-size: 1.2rem;
+    font-family: Merriweather;
+    text-align: center;
+    background-image: url("./1472935446_preview_Ancient.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: NotoSerif;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: NotoSerif;
+}
+
+.pedro {
+    width: 80px;
+    float: left;
+}
+
+.Dj {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
