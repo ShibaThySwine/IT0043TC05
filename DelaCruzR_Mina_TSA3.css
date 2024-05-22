@@ -1,0 +1,173 @@
+*{
+    padding:0px;
+    margin:0px;
+    border:0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-image: url(./1b54fdb78829776f9ff5d9229c63c03c.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+
+}
+
+.container {
+    padding: 40px;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.card {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 25%;
+    margin: 4rem;
+    align-items: center;
+    
+
+}
+
+.image{
+    background-image: url(./R.png);
+    border-top: 10px;
+    padding: 20px;
+    height: auto;
+}
+
+.card img {
+    height: 200px;
+}
+
+.card h1{
+    height: 50px;
+}
+
+
+.card p {
+    padding: 10px ;
+}
+
+.type {
+    padding: 5px 5px;
+    border-radius: 3px;
+    width: 21%;
+    color: #fff;
+    display: inline-block;
+}
+
+
+.type.psychic {
+    background-color: #F95587;
+}
+
+.type.fairy {
+    background-color: #D685AD;
+}
+
+.type.poison {
+    background-color: #A33EA1;
+}
+
+.type.fire {
+    background-color: #F08030;
+}
+
+.type.water {
+    background-color: #6890F0;
+}
+
+.type.dark{
+    background-color: #705746;
+}
+
+.type.ground{
+    background-color: #E2BF65;
+}
+
+.type.flying{
+    background-color: #A98FF3;
+}
+
+.type.steel{
+    background-color: #B7B7CE;
+}
+
+.type.dragon{
+    background-color: #6F35FC;
+}
+
+button {
+    margin: 5px 0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.buttons .add:hover {
+    opacity: 0.3;
+
+}
+
+.buttons .release:hover {
+    opacity: 0.3;
+
+}
+
+
+.add {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.release {
+    background-color: #f44336;
+    color: white;
+}
+
+.details{
+    width:100%;
+    padding: 30px;
+}
+
+.pink{
+    background-color: pink;
+    border-radius: 1px;
+}
+
+.brown{
+    background-color: #998b8c;
+    border-radius: 1px;
+}
+
+.browner{
+    background-color: #c08c6c;
+    border-radius: 1px;
+}
+
+.lugiablue{
+    background-color: #9ab2e1;
+    border-radius: 1px;
+}
+
+.dialgablue{
+    background-color: #a0c4d4;
+}
+
+.hoopapink{
+    background-color: #b54683;
+}
+
+
+
+
