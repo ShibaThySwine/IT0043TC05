@@ -4,6 +4,8 @@
     border: 0;
     box-sizing: border-box;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all ease-in;
+    transition-duration: 0.5s;
 }
 
 body{
@@ -34,7 +36,7 @@ p{
 }
 
 img{
-    width: 350px;
+    width: 250px;
     padding: 0.5rem;
 }
 
@@ -134,7 +136,7 @@ img{
 
     .Type{
         display: none;
-      }
+    }
 
 }
 
