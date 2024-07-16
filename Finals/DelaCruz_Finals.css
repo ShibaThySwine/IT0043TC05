@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Oregano:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: 0.2s ease-in;
+
+}
+
+body{
+    color: white;
+}
+
+
+nav{
+    background-color: #7c4a34;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Oregano", cursive;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+
+.logo a{
+    font-family: "Oregano", cursive;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 2.5vw;
+}
+
+
+.n-list {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    padding: 5px ;
+    font-family: "Abel", sans-serif;
+    
+}
+
+.n-list a{
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    color: White;
+    padding: 5px ;
+    font-family: "Abel", sans-serif;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+}
+
+.n-list a:hover{
+    color: black;
+    transition:0.5s
+}
+
+.n-item {
+    list-style: none;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+/* this hover or active wait */
+.n-list a:hover{
+    color: black;
+    transition:0.5s
+}
+
+.n-item:hover{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: Black;
+}
+
+.n-list a.active{
+    color: black;
+    transition:0.5s
+}
+
+.n-item #active{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: Black;
+}
+
+.menu{
+    display: none;
+    cursor: pointer;
+}
+
+.menu div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+section {
+    min-height: 100vh;
+    background: #dc9864;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section:nth-child(odd){
+    background-color: #daa787;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    margin-left: 5rem;
+    margin-right: 10rem;
+    margin-top: 14rem;
+}
+
+.home h1{
+    font-size: 4vw;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.home-content p {
+    font-size: 1.7vw;
+    padding-bottom: 20px;
+}
+
+.home-img img{
+    height: 90vh;
+    padding: 70px;
+}
+
+.socials a{
+    font-size: 2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    margin: 0 2.5rem 3rem 0;
+    color: #7c4a34;
+    border: 1px solid;
+    border-radius: 100%;    
+}
+
+.socials a:hover{
+    background-color: #F0F8FE;
+    transform: scale(1.2)translateY(-10px);
+    transition: 0.2s;
+}
+
+.socials ion-icon.fb:hover{
+    color: #4267B2;
+    transition: none;
+}
+
+.socials ion-icon.ig:hover{
+    color: #DD2A7B;
+    transition: none;
+}
+
+.socials ion-icon.gh:hover{
+    color: #2b3137;
+    transition: none;
+}
+
+.socials ion-icon.rdt:hover{
+    color: #f6480a;
+    transition: none;
+}
+
+#about{
+    padding-top: 4vw;
+    display: flex;
+}
+
+#about .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: auto;
+    height: auto;
+    width: 80vw;
+    background-color: #29211f;
+    border-radius: 10px;
+}
+
+.aboutme h1{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+.aboutme p{
+    background-color: #d2b48c;
+    font-size: 27px;
+    margin: 1vw;
+    border: 1px;
+    border-radius: 10px;
+    padding: 2%;
+    
+}
+
+.aboutme img{
+    width: 13vw;
+    height: 17vh;
+    border-radius: 5px;
+    align-items: center;
+    margin: 1.7%;
+}
+
+.shib {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#services .bigtitle{
+    letter-spacing: 20px;
+    font-size: 3vw; 
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+
+#services .card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#services .card{
+    display: flex;
+    margin: 10px;
+    width: 17vw;
+    height: 35vh;
+    background-color: #F9EFBC;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+}
+
+#services .title{
+    font-size: 2vw;
+
+}
+
+#services p{
+    font-size: 18px;
+
+} 
+
+.work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 60px;
+    font-size: 3vw;
+}
+
+
+#work .container {
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.poke-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.project{
+    width: 30vw;
+    height: 37vw;
+    margin: 40px;
+}
+
+#mt.project {
+    background-color: #d2b48c;
+    border-radius: 5%;
+}
+
+#mt.project embed {
+    padding-top: 30px;
+    width: 25vw;
+    height: 30vw;
+}
+
+#mt.project p {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    margin: 1%;
+    font-size: 25px;
+}
+
+.project a{
+    font-size: 2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    color: #7c4a34;
+    border: 1px solid;
+    border-radius: 100%; 
+    text-decoration: none;
+}
+
+.project ion-icon.mag{
+    color: #7c4a34;
+}
+
+.project a:hover{
+    color: white;
+}
+
+.project ion-icon.mag:hover{
+    color: white;
+}
+
+
+@media (max-width:1250px){
+    .n-list {
+        display: flex;
+        justify-content: space-around;
+        width: 65%;
+    }
+
+    .home h1{
+        font-size: 5vw;
+    }
+
+    .home-content p{
+        font-size: 2.4vw;
+        padding-right: 50px;
+    }
+
+    .socials{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .socials a{
+        font-size: 1.8rem;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 60px;  
+    }
+
+    .home-img img{
+        height: 65vh;
+        padding: 20px;
+    }
+
+    .home-content {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 5rem;
+    }
+
+    #about .container{
+        width: 90%;
+        border-radius: 10px;
+    }
+    
+    .aboutme h1{
+        font-size: 4vw;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    
+    .aboutme p{
+        font-size: 2vw;
+        margin: 1vw;
+        border: 1px;
+        border-radius: 10px;
+        padding: 2%;
+
+    }
+
+    #services .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    #services .card{
+        display: flex;
+        margin: 10px;
+        width: 30%;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    #services .bigtitle{
+        font-size: 6.6vw;
+        letter-spacing: 4px;
+    }
+
+    #services .title{
+        font-size: 3vw;
+    }
+
+    .work h1{
+        font-size: 5.6vw;
+    }
+
+    .project{
+        width: 70%;
+        height: 57vh;
+        margin: 40px;
+    }
+
+    #mt.project embed {
+        padding-top: 30px;
+        width: 80%;
+        height: 80%;
+    }
+
+    .logo a{
+        font-size: 3.4vw;
+    }
+}
+
+@media (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .logo a{
+        font-size: 5vw;
+    }
+
+    nav{
+        height: 9vh;
+    }
+
+    .n-list{
+        position: absolute;
+        right: 0px;
+        height: 30vh;
+        top: 8vh;
+        background-color: #7c4a34;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: ease-in 0.5s;
+    }
+
+    .home{
+        flex-wrap: wrap;
+    }
+
+    .home-content{
+        margin: 0%;
+    }
+
+    .home-img img{
+        height: 67vh;
+        padding-top: 100px;
+    }
+
+    .home h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .home-content p {
+        font-size: 23px;
+        padding-bottom: 20px;
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .socials{
+        justify-content: center;
+    }
+
+    #about .container{
+        width: 95%;
+        border-radius: 10px;
+    }
+
+    .aboutme h1{
+        font-size: 5vw;
+        padding-left: 20px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    .aboutme p{
+        font-size: 2.7vw;
+        margin: 1vw;
+        border: 1px;
+        border-radius: 10px;
+        padding: 2%;
+
+    }
+
+
+    #services .card{
+        width: 60%;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    #services .bigtitle{
+        padding-top: 30px;
+        font-size: 7.6vw;
+        letter-spacing: 4px;
+    }
+
+    #services .title{
+        font-size: 5vw;
+    }
+
+    .project{
+        width: 90%;
+        height: 60vh;
+        margin: 40px;
+    }
+    
+    .work h1{
+        font-size: 10vw;
+    }
+    
+    #mt.project {
+        background-color: #d2b48c;
+        border-radius: 5%;
+    }
+
+    #mt.project embed {
+        padding-top: 30px;
+        width: 80%;
+        height: 80%;
+    }
+
+    .n-list li{
+        opacity: 0;
+    }
+
+    .menu {
+        display: block;
+    } 
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        trasnform: translateX(50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
